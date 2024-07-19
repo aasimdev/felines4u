@@ -651,6 +651,10 @@ p{
   visibility: collapse;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -671,6 +675,10 @@ p{
   z-index: 10;
 }
 
+.z-50 {
+  z-index: 50;
+}
+
 .m-1 {
   margin: 0.25rem;
 }
@@ -687,6 +695,10 @@ p{
   margin: auto;
 }
 
+.m-2\.5 {
+  margin: 0.625rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -700,6 +712,11 @@ p{
 .my-\[10px\] {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.my-2\.5 {
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
 }
 
 .-mb-\[3\.5px\] {
@@ -752,6 +769,18 @@ p{
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.ml-\[10px\] {
+  margin-left: 10px;
+}
+
+.mb-2\.5 {
+  margin-bottom: 0.625rem;
+}
+
+.ml-2\.5 {
+  margin-left: 0.625rem;
 }
 
 .block {
@@ -903,6 +932,10 @@ p{
   border-width: 1px;
 }
 
+.border-t {
+  border-top-width: 1px;
+}
+
 .border-gray-300 {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
@@ -911,6 +944,16 @@ p{
 .border-gray-700 {
   --tw-border-opacity: 1;
   border-color: rgb(55 65 81 / var(--tw-border-opacity));
+}
+
+.border-\[\#212529\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(33 37 41 / var(--tw-border-opacity));
+}
+
+.bg-\[\#212529\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 37 41 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#495057\] {
@@ -928,14 +971,24 @@ p{
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
-.bg-gray-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(133 77 14 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#7a7504\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(122 117 4 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-20 {
@@ -946,12 +999,16 @@ p{
   --tw-bg-opacity: 0.5;
 }
 
-.bg-\[url\(\'https\:\/\/www\.felines4us\.com\/images\/hero1\.webp\'\)\] {
-  background-image: url('https://www.felines4us.com/images/hero1.webp');
-}
-
 .bg-\[url\(\'https\:\/\/www\.felines4us\.com\/images\/hero1-sm\.webp\'\)\] {
   background-image: url('https://www.felines4us.com/images/hero1-sm.webp');
+}
+
+.bg-\[url\(\'\.\/assets\/images\/hero1-sm\.webp\'\)\] {
+  background-image: url('./assets/images/hero1-sm.webp');
+}
+
+.bg-\[url\(\'\.\.\/images\/hero1-sm\.webp\'\)\] {
+  background-image: url('../images/hero1-sm.webp');
 }
 
 .bg-cover {
@@ -977,6 +1034,10 @@ p{
 
 .p-\[10px\] {
   padding: 10px;
+}
+
+.p-2\.5 {
+  padding: 0.625rem;
 }
 
 .px-3 {
@@ -1012,6 +1073,11 @@ p{
 .py-\[6px\] {
   padding-top: 6px;
   padding-bottom: 6px;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .pb-0 {
@@ -1068,17 +1134,22 @@ p{
   font-size: calc(1.3rem + .6vw);
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-responsive-h1 {
   font-size: calc(1.475rem + 2.7vw);
 }
 
 .text-responsive-h2 {
   font-size: calc(1.325rem + .9vw);
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -1299,12 +1370,16 @@ p{
     width: 33.333333%;
   }
 
-  .md\:bg-\[url\(\'https\:\/\/www\.felines4us\.com\/images\/hero1-sm\.webp\'\)\] {
-    background-image: url('https://www.felines4us.com/images/hero1-sm.webp');
-  }
-
   .md\:bg-\[url\(\'https\:\/\/www\.felines4us\.com\/images\/hero1\.webp\'\)\] {
     background-image: url('https://www.felines4us.com/images/hero1.webp');
+  }
+
+  .md\:bg-\[url\(\'\.\/assets\/images\/hero1\.webp\'\)\] {
+    background-image: url('./assets/images/hero1.webp');
+  }
+
+  .md\:bg-\[url\(\'\.\.\/images\/hero1\.webp\'\)\] {
+    background-image: url('../images/hero1.webp');
   }
 
   .md\:px-0 {
@@ -1372,14 +1447,14 @@ p{
     overflow: visible;
   }
 
-  .lg\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-
   .lg\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .lg\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .lg\:text-start {
@@ -1396,11 +1471,11 @@ p{
     font-size: 28px;
   }
 
-  .xl\:text-\[56px\] {
-    font-size: 56px;
-  }
-
   .xl\:text-\[32px\] {
     font-size: 32px;
+  }
+
+  .xl\:text-\[56px\] {
+    font-size: 56px;
   }
 }
