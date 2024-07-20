@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./assets/css/fontawesome.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preload" href="./assets/css/style.css" as="style" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Cats, Kittens, and Cat Breeders</title>
+    <title>FAQ Felines4Us</title>
     <meta name="description" content="If you are searching for an extensive list of cats and kittens for sale, then Felines4Us.com is the right place for you.  We also have a comprehensive listing of cat breeders and even kitten wanted ads" />
     <meta name="robots" content="index,follow" />
     <meta name="author" content="Felines4Us.com" />
@@ -20,83 +20,122 @@
 <body> 
     <nav class="bg-black py-2">
         <div class="wrapper flex justify-between lg:justify-normal items-center flex-wrap lg:flex-nowrap">
-            <a class="flex-shrink-0 mr-4 h-10" href="/"><img alt="felines4us Logo" src="./assets/images/logo.webp"
-                    height="45" width="141" class="-mt-1"></a>
-            <button class="lg:hidden text-gray-500 hover:text-gray-700 focus:outline-none btn btn-outline-light rounded-md transition btn-rounded px-3 py-1 border border-gray-300" type="button"
-                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="flex-shrink-0 mr-4 h-10" href="/">
+                <img alt="felines4us Logo" src="./assets/images/logo.webp"
+                     height="45" width="141" class="-mt-1">
+            </a>
+            <button class="lg:hidden text-gray-500 hover:text-gray-700 focus:outline-none btn btn-outline-light rounded-md transition btn-rounded px-3 py-1 border border-gray-300"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="sr-only">Open main menu</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#d1d5db" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                  </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#d1d5db" class="bi bi-list"
+                     viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
             </button>
-            <div class="h-0 overflow-hidden lg:overflow-visible lg:h-auto  lg:flex lg:items-center lg:space-x-4 basis-full lg:basis-[auto] transition-all" id="navbarSupportedContent">
+            <div class="h-0 overflow-hidden lg:overflow-visible lg:h-auto  lg:flex lg:items-center lg:space-x-4 basis-full lg:basis-[auto] transition-all"
+                 id="navbarSupportedContent">
                 <ul class="flex -mb-[3.5px] flex-col lg:flex-row">
                     <li class="relative">
                         <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5 after:display-inline after:ml-1 after:align-middle after:border-t-[5px] after:border-t-solid after:border-r-[5px] after:border-r-transparent after:border-b-0 after:border-l-[5px] after:border-l-transparent"
-                            href="#" id="navbarDropdownKittens" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                           href="#" id="navbarDropdownKittens" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
                             <i class="fa-solid fa-paw"></i> KITTENS
                         </a>
-                        <ul class="dropdown-menu lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
+                        <ul class="dropdown-menu z-50 lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
                             aria-labelledby="navbarDropdownKittens">
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Kittens for Sale</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Kittens for Sale by
-                                    Breed</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Kittens for Sale by
-                                    State</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Hypoallergenic
-                                    Kittens for Sale</a></li>
-                        </ul>
-                    </li>
-                    <li class="relative">
-                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-0 lg:px-2 pb-2 pt-2.5 after:display-inline after:ml-1 after:align-middle after:border-t-[5px] after:border-t-solid after:border-r-[5px] after:border-r-transparent after:border-b-0 after:border-l-[5px] after:border-l-transparent"
-                            href="#" id="navbarDropdownStudCats" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            <i class="fa-solid fa-shield-cat mr-1"></i> STUD CATS
-                        </a>
-                        <ul class="dropdown-menu lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
-                            aria-labelledby="navbarDropdownStudCats">
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Stud Cats</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Stud Cats by Breed</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Stud Cats by State</a></li>
-                        </ul>
-                    </li>
-                    <li class="relative">
-                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-0 lg:px-2 pb-2 pt-2.5 after:display-inline after:ml-1 after:align-middle after:border-t-[5px] after:border-t-solid after:border-r-[5px] after:border-r-transparent after:border-b-0 after:border-l-[5px] after:border-l-transparent"
-                            href="#" id="navbarDropdownBreeders" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            <i class="fa-solid fa-people-group mr-1"></i> BREEDERS
-                        </a>
-                        <ul class="dropdown-menu lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
-                            aria-labelledby="navbarDropdownBreeders">
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Cat Breeders</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Cat Breeders by Breed</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Cat Breeders by State</a>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                   href="https://www.felines4us.com/kittens.aspx">Kittens for Sale</a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                   href="https://www.felines4us.com/kittens-breed.aspx">
+                                    Kittens for Sale by
+                                    Breed
+                                </a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                   href="https://www.felines4us.com/kittens-states.aspx">
+                                    Kittens for Sale by
+                                    State
+                                </a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                   href="https://www.felines4us.com/hypoallergenic-cats.aspx">
+                                    Hypoallergenic
+                                    Kittens for Sale
+                                </a>
                             </li>
                         </ul>
                     </li>
-                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
-                            aria-current="page" href="#"><i class="fa-solid fa-calculator"></i> CAT AGE CALCULATOR</a>
+                    <li class="relative">
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-0 lg:px-2 pb-2 pt-2.5 after:display-inline after:ml-1 after:align-middle after:border-t-[5px] after:border-t-solid after:border-r-[5px] after:border-r-transparent after:border-b-0 after:border-l-[5px] after:border-l-transparent"
+                           href="#" id="navbarDropdownStudCats" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            <i class="fa-solid fa-shield-cat mr-1"></i> STUD CATS
+                        </a>
+                        <ul class="dropdown-menu z-50 lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
+                            aria-labelledby="navbarDropdownStudCats">
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                   href="https://www.felines4us.com/stud-cats.aspx">Stud Cats</a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                   href="https://www.felines4us.com/stud-cats-breed.aspx">Stud Cats by Breed</a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                   href="https://www.felines4us.com/stud-cats-states.aspx">Stud Cats by State</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
-                            aria-current="page" href="#"><i class="fa-solid fa-chart-line"></i> GROWTH CHART</a></li>
-                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
-                            aria-current="page" href="#"><i class="fa-solid fa-cat"></i> CAT NAMES</a></li>
-                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
-                            aria-current="page" href="#"><i class="fa-solid fa-user"></i> JOIN</a></li>
-                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
-                            aria-current="page" href="#"><i class="fa-solid fa-right-to-bracket"></i> LOGIN</a></li>
+                    <li class="relative">
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-0 lg:px-2 pb-2 pt-2.5 after:display-inline after:ml-1 after:align-middle after:border-t-[5px] after:border-t-solid after:border-r-[5px] after:border-r-transparent after:border-b-0 after:border-l-[5px] after:border-l-transparent"
+                           href="#" id="navbarDropdownBreeders" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            <i class="fa-solid fa-people-group mr-1"></i> BREEDERS
+                        </a>
+                        <ul class="dropdown-menu z-50 lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
+                            aria-labelledby="navbarDropdownBreeders">
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                   href="https://www.felines4us.com/breeders.aspx">Cat Breeders</a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                   href="https://www.felines4us.com/breeders-breed.aspx">Cat Breeders by Breed</a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                   href="https://www.felines4us.com/breeders-states.aspx">Cat Breeders by State</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                           aria-current="page" href="https://www.felines4us.com/cat-age-calculator.aspx"><i class="fa-solid fa-calculator"></i> CAT AGE CALCULATOR</a>
+                    </li>
+                    <li>
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                           aria-current="page" href="https://www.felines4us.com/growth-chart.aspx"><i class="fa-solid fa-chart-line"></i> GROWTH CHART</a>
+                    </li>
+                    <li>
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                           aria-current="page" href="https://www.felines4us.com/cat-names.aspx"><i class="fa-solid fa-cat"></i> CAT NAMES</a>
+                    </li>
+                    <li>
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                           aria-current="page" href="https://www.felines4us.com/registration.aspx"><i class="fa-solid fa-user"></i> JOIN</a>
+                    </li>
+                    <li>
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                           aria-current="page" href="https://www.felines4us.com/login.aspx"><i class="fa-solid fa-right-to-bracket"></i> LOGIN</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -115,35 +154,40 @@
                 </li>
                 <li class="flex items-center">
                     <span class="text-gray-500">/</span>
-                    <span class="ml-2 text-gray-500">About Us</span>
+                    <span class="ml-2 text-gray-500">FAQs</span>
                 </li>
             </ol>
         </nav>
-        <h1 class="text-[32px] text-light-blue text-center mb-5 font-medium leading-[1.2]">About Us</h1>
-        <div class="bg-gray-50 p-5 rounded-lg shadow-md">
-            <h2 class="text-[28px] text-center text-gray-800 mb-5">Our Mission</h2>
-            <p class="text-lg text-gray-800 mb-4">
-                Thank you for visiting Felines4Us.com. We are dedicated to connecting people who want to buy registered cats or kittens with sellers and breeders. The breeders listed on our site are truly second to none. From hobby breeders to professional breeders, they are all responsible when breeding their cats. Within our site, you will find such cool sections as stud cat listings, and our unique Cat Chat. This is where you can talk about any cat topic online, and instantly receive a reply from one of our fellow site members.
-            </p>
-            <p class="text-lg text-gray-800 mb-4">
-                As enthusiastic cat lovers ourselves, our goal is to build a community where cat lovers from everywhere can gather. By looking over our website you will see that we not only have many listings of kittens and cats for sale, but educational sections as well. This is where you go to find out all about other breeds of cats. We have included adorable color photos of each breed as well.
-            </p>
-            <p class="text-lg text-gray-800 mb-4">
-                We understand that not everyone adores cats as much as we do, and that's another reason we have developed this website. It can be so frustrating when your cat does something so cute, outrageous or just incredibly smart and you have no one to share that with. Our Cat Chat offers a place to talk about your cat with others, or ask questions regarding your cat. Someone will also have an answer or just be happy to trade cat stories with you. Before you know it, you will be chatting away with many of our other members. These are the people who will WANT to hear your cat tales, and will also have many of their own to share.
-            </p>
-            <p class="text-lg text-gray-800 mb-4">
-                To make things even easier, joining our site is so easy! It just takes a few minutes to register, and you are on your way to connecting with other cat lovers.
-            </p>
-            <p class="text-lg text-gray-800 mb-4">
-                If you are trying to add to your feline family, be sure to check out our Kittens for Sale section for your location. We also offer a section for Stud Cats if you wish to breed your lovely female cat.
-            </p>
-            <p class="text-lg text-gray-800 mb-4">
-                We are also very interested in seeing your special cat. Visit our Cat Photo Contest page to enter that adorable picture of YOUR cat. You can enter your cat's picture at the beginning of the month.
-            </p>
-            <p class="text-lg text-gray-800 mb-4">
-                Join today and find out what all the other cat lovers are talking about!
+        <h1 class="text-[32px] text-light-blue text-center mb-5">Frequently Asked Questions</h1>
+
+        <div class="faq bg-[#f8f9fa] p-5 rounded-lg shadow-md">
+            <ol class="text-lg text-gray-800 list-decimal pl-5">
+                <li class="mb-5 leading-[1.5]">
+                    <strong>Is Felines4Us free?</strong><br />
+                    No, as a seller, to join Felines4Us we charge a flat rate of $7.95 per month. This charge is recurring and will renew every 30 days unless cancelled by the seller.
+                </li>
+                <li class="mb-5 leading-[1.5]">
+                    <strong>How do I register an account with Felines4Us?</strong><br />
+                    It is simple, just visit our registration page here, <a href="https://www.felines4us.com/registration.aspx" class="text-blue-500 underline">www.felines4us.com/registration.aspx</a> and fill out the information on the registration page.
+                </li>
+                <li class="mb-5 leading-[1.5]">
+                    <strong>How do I place an advertisement?</strong><br />
+                    Once you register an account with us, login to our site with your username and password, then click on the Place an Ad link from the above menu, then select the type of ad you wish to place, fill out the information and upload a photo (optional), then click on the submit button.
+                </li>
+                <li class="mb-5 leading-[1.5]">
+                    <strong>Where is your office located?</strong><br />
+                    Our office is located at 8770 Sunset Drive #262, Miami, Florida 33173. However, we have a data center that is located and maintained in a secure environment in Atlanta.
+                </li>
+                <li class="mb-5 leading-[1.5]">
+                    <strong>What if my question is not on this page?</strong><br />
+                    Please contact us using the Contact Us link below and we will be glad to do our best to answer any question you may have.
+                </li>
+            </ol>
+            <p class="text-lg text-light-blue mt-5 mb-4">
+                For more information on staying safe and identifying reputable breeders, please visit our <a href="safety-tips.aspx" class="text-blue-500 underline">Safety Tips and Known Issues</a> page.
             </p>
         </div>
+        
         
     </div>
 
@@ -167,7 +211,7 @@
                         <h3 class="uppercase text-responsive xl:text-[28px] mb-2">Newsletter</h3>
                         <p class="text-base mb-4">Subscribe to our newsletter by entering your email address and receive great tips about raising cats.</p>
                         <div class="flex mb-4">
-                            <input type="email" id="sbsemail" placeholder="Enter your email" class="block w-full px-3 py-[6px] text-base font-normal rounded-tr-none rounded-br-none leading-6 text-[#212529] appearance-none bg-white border border-gray-300 rounded transition duration-150 ease-in-out focus:border-blue-500 focus:outline-none focus:ring">
+                            <input type="email" id="sbsemail" placeholder="Enter your email" class="block w-full px-3 py-[6px] text-base font-normal rounded-tr-none rounded-br-none leading-6 placeholder:text-[#212529] appearance-none bg-white border border-gray-300 rounded transition duration-150 ease-in-out focus:border-blue-500 focus:outline-none focus:ring">
                             <input id="subscribeButton" type="button" class="btn btn-outline-light rounded-md rounded-tl-none rounded-bl-none transition btn-rounded px-3 py-[6px] border border-gray-300 text-base" value="Submit">
                         </div>
                         <div id="subscriptionMessage" class="subscription-message hidden"></div> <!-- Placeholder for the message -->

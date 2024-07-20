@@ -7,11 +7,13 @@ module.exports = {
         'responsive': 'calc(1.3rem + .6vw)',
         'responsive-h1': 'calc(1.475rem + 2.7vw)',
         'responsive-h2': 'calc(1.325rem + .9vw)',
-        
+
       },
       colors:{
-'dark-gray':'#212529',
-      },
+        'light-gray':'#dee2e6',
+        'dark-gray':'#212529',
+        'light-blue':'#007bff',
+        }
     },
   },
   plugins: [],
