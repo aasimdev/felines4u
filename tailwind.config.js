@@ -9,6 +9,9 @@ module.exports = {
         'responsive-h2': 'calc(1.325rem + .9vw)',
 
       },
+      width: {
+        "fitcontent" : 'calc(100% - 16px)'
+      },
       colors:{
         'light-gray':'#dee2e6',
         'dark-gray':'#212529',
