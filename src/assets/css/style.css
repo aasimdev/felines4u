@@ -493,6 +493,10 @@ label,p,li{
   line-height: 1.5 !important;
 }
 
+select{
+  background-color: #fff;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -1170,6 +1174,11 @@ label,p,li{
   border-color: rgb(148 163 184 / var(--tw-border-opacity));
 }
 
+.border-\[\#F0F8FF\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(240 248 255 / var(--tw-border-opacity));
+}
+
 .bg-\[\#0d6efd\] {
   --tw-bg-opacity: 1;
   background-color: rgb(13 110 253 / var(--tw-bg-opacity));
@@ -1610,6 +1619,11 @@ label,p,li{
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#842029\] {
+  --tw-text-opacity: 1;
+  color: rgb(132 32 41 / var(--tw-text-opacity));
 }
 
 .underline {
