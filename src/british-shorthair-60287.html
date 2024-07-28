@@ -6,12 +6,105 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="XXX">
   <link rel="stylesheet" href="./assets/css/fontawesome.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="
+https://cdn.jsdelivr.net/npm/magnific-popup@1.2.0/dist/magnific-popup.min.css
+" rel="stylesheet">
   <link rel="preload" href="./assets/css/style.css" as="style" />
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>TICA Blue Golden Chinchilla Girl 1 ay12 for sale</title>
     <meta name="description" content="If you are searching for an extensive list of cats and kittens for sale, then Felines4Us.com is the right place for you.  We also have a comprehensive listing of cat breeders and even kitten wanted ads" />
     <meta name="robots" content="index,follow" />
     <meta name="author" content="Felines4Us.com" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" rel="preload" as="script"></script>
+  
+    <script rel="preload">
+      $(function () {
+        function setCarouselImageWidth() {
+          var carouselWidth = $('#carousel').width();
+          $('#carousel img').css('width', carouselWidth);
+          $('#carousel ul li').css('width', carouselWidth);
+        }
+  
+        $(window).on('resize', function () {
+          setCarouselImageWidth();
+        });
+  
+        setCarouselImageWidth();
+  
+        var carouselList = $('#carousel ul');
+        carouselList.css({ "marginLeft": "-=100%" });
+  
+        function changeSlide() {
+          if (carouselList.is(':animated')) {
+            return false;
+          } else {
+            carouselList.animate({ "marginLeft": "-=100%" }, 500, moveFirstSlide);
+          }
+        }
+  
+        function moveFirstSlide() {
+          var firstItem = carouselList.find("li:first");
+          var lastItem = carouselList.find("li:last");
+          lastItem.after(firstItem);
+          carouselList.css({ "marginLeft": "+=100%" });
+          var active = $('.carousel-controls .active');
+          var next = active.next();
+          if (next.length == 0) {
+            next = $('.carousel-controls div').first();
+          }
+          next.addClass('active');
+          active.removeClass('active');
+        }
+  
+        function moveFirstSlideRightButton() {
+          var firstItem = carouselList.find("li:first");
+          var lastItem = carouselList.find("li:last");
+          lastItem.after(firstItem);
+          carouselList.css({ "left": "+=100%" });
+        }
+  
+        function moveFirstSlideLeftButton() {
+          var firstItem = carouselList.find("li:first");
+          var lastItem = carouselList.find("li:last");
+          firstItem.before(lastItem);
+          carouselList.css({ "left": "-=100%" });
+        }
+  
+        setInterval(changeSlide, 3000);
+  
+        var slideLeft = $('.carousel-button-slide-left');
+        slideLeft.on('click', function () {
+          if (carouselList.is(':animated')) {
+            return false;
+          } else {
+            carouselList.animate({ "left": "+=100%" }, 300, moveFirstSlideLeftButton());
+            var active = $('.carousel-controls .active');
+            var prev = active.prev();
+            if (prev.length == 0) {
+              prev = $('.carousel-controls div').last();
+            }
+            prev.addClass('active');
+            active.removeClass('active');
+          }
+        });
+  
+        var slideRight = $('.carousel-button-slide-right');
+        slideRight.on('click', function () {
+          if (carouselList.is(':animated')) {
+            return false;
+          } else {
+            carouselList.animate({ "left": "-=100%" }, 300, moveFirstSlideRightButton());
+            var active = $('.carousel-controls .active');
+            var next = active.next();
+            if (next.length == 0) {
+              next = $('.carousel-controls div').first();
+            }
+            next.addClass('active');
+            active.removeClass('active');
+          }
+        });
+      });
+    </script>
     
 
 </head>
@@ -205,10 +298,10 @@
           <span class="text-xl"><strong>$3,500</strong></span>
         </div>
         <div class="flex justify-start mt-4">
-          <input type="submit" name="btnContactMe" value="Message Me" id="btnContactMe"
+          <input type="submit" name="btnContactMe" value="Contact me" id="btnContactMe"
             class="btn btn-primary py-1.5 px-3 bg-light-blue-100 text-white text-base leading-6 rounded-md" />
         </div>
-        <p class="text-secondary mt-3 text-center mb-4 text-gray-400">242 people showing interest in this kitten!</p>
+        <p class="text-secondary mt-3 text-center mb-4 text-gray-500">242 people showing interest in this kitten!</p>
         <p class="text-[20px] mt-3">Beautiful Blue Golden Chinchilla ay12 British Shorthair Girl with Green Eyes
           available
           in San Diego CA for $3500. This charming kitten embodies all the classic traits of the British Shorthair breed
@@ -472,94 +565,6 @@ https://cdn.jsdelivr.net/npm/magnific-popup@1.2.0/dist/jquery.magnific-popup.min
     
     </script>
 
-  <script>
-    $(function () {
-      function setCarouselImageWidth() {
-        var carouselWidth = $('#carousel').width();
-        $('#carousel img').css('width', carouselWidth);
-        $('#carousel ul li').css('width', carouselWidth);
-      }
-
-      $(window).on('resize', function () {
-        setCarouselImageWidth();
-      });
-
-      setCarouselImageWidth();
-
-      var carouselList = $('#carousel ul');
-      carouselList.css({ "marginLeft": "-=100%" });
-
-      function changeSlide() {
-        if (carouselList.is(':animated')) {
-          return false;
-        } else {
-          carouselList.animate({ "marginLeft": "-=100%" }, 500, moveFirstSlide);
-        }
-      }
-
-      function moveFirstSlide() {
-        var firstItem = carouselList.find("li:first");
-        var lastItem = carouselList.find("li:last");
-        lastItem.after(firstItem);
-        carouselList.css({ "marginLeft": "+=100%" });
-        var active = $('.carousel-controls .active');
-        var next = active.next();
-        if (next.length == 0) {
-          next = $('.carousel-controls div').first();
-        }
-        next.addClass('active');
-        active.removeClass('active');
-      }
-
-      function moveFirstSlideRightButton() {
-        var firstItem = carouselList.find("li:first");
-        var lastItem = carouselList.find("li:last");
-        lastItem.after(firstItem);
-        carouselList.css({ "left": "+=100%" });
-      }
-
-      function moveFirstSlideLeftButton() {
-        var firstItem = carouselList.find("li:first");
-        var lastItem = carouselList.find("li:last");
-        firstItem.before(lastItem);
-        carouselList.css({ "left": "-=100%" });
-      }
-
-      setInterval(changeSlide, 3000);
-
-      var slideLeft = $('.carousel-button-slide-left');
-      slideLeft.on('click', function () {
-        if (carouselList.is(':animated')) {
-          return false;
-        } else {
-          carouselList.animate({ "left": "+=100%" }, 300, moveFirstSlideLeftButton());
-          var active = $('.carousel-controls .active');
-          var prev = active.prev();
-          if (prev.length == 0) {
-            prev = $('.carousel-controls div').last();
-          }
-          prev.addClass('active');
-          active.removeClass('active');
-        }
-      });
-
-      var slideRight = $('.carousel-button-slide-right');
-      slideRight.on('click', function () {
-        if (carouselList.is(':animated')) {
-          return false;
-        } else {
-          carouselList.animate({ "left": "-=100%" }, 300, moveFirstSlideRightButton());
-          var active = $('.carousel-controls .active');
-          var next = active.next();
-          if (next.length == 0) {
-            next = $('.carousel-controls div').first();
-          }
-          next.addClass('active');
-          active.removeClass('active');
-        }
-      });
-    });
-  </script>
   <script>
 
     $('#carousel ul').magnificPopup({

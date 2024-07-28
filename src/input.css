@@ -12,7 +12,7 @@
     }
     small{
         font-size: .875em;
-        color: #21252980;
+        color: #212529bf;
         line-height: 1.5;
     }
     @media (min-width: 576px) {
@@ -70,6 +70,7 @@
 		height: 450px;
 		list-style: none;
 		float: left;
+		
 	  }
   
 	  #carousel ul {

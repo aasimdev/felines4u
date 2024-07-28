@@ -375,6 +375,12 @@
         white-space: nowrap;
         border-width: 0
     }
+    .fa-angle-left:before{
+        content:"\f104"
+    }
+    .fa-angle-right:before{
+        content:"\f105"
+    }
 
     :host, :root {
         --fa-style-family-brands: "Font Awesome 6 Brands";
