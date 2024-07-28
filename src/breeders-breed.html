@@ -17,8 +17,9 @@
 <body>
     <nav class="bg-black py-2">
         <div class="wrapper flex justify-between lg:justify-normal items-center flex-wrap lg:flex-nowrap">
-            <a class="flex-shrink-0 mr-4 h-10" href="/"><img alt="felines4us Logo" src="./assets/images/logo.webp"
-                    height="45" width="141" class="-mt-1"></a>
+            <a class="flex-shrink-0 mr-4 h-10" href="/">
+                <img alt="felines4us Logo" src="./assets/images/logo.webp" height="45" width="141" class="-mt-1">
+            </a>
             <button
                 class="lg:hidden text-gray-500 hover:text-gray-700 focus:outline-none btn btn-outline-light rounded-md transition btn-rounded px-3 py-1 border border-gray-300"
                 type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -39,19 +40,30 @@
                             aria-expanded="false">
                             <i class="fa-solid fa-paw"></i> KITTENS
                         </a>
-                        <ul class="dropdown-menu lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
+                        <ul class="dropdown-menu z-50 lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
                             aria-labelledby="navbarDropdownKittens">
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Kittens for Sale</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Kittens for Sale by
-                                    Breed</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Kittens for Sale by
-                                    State</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Hypoallergenic
-                                    Kittens for Sale</a></li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/kittens.aspx">Kittens for Sale</a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/kittens-breed.aspx">
+                                    Kittens for Sale by Breed
+                                </a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/kittens-states.aspx">
+                                    Kittens for Sale by State
+                                </a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/hypoallergenic-cats.aspx">
+                                    Hypoallergenic Kittens for Sale
+                                </a>
+                            </li>
                         </ul>
                     </li>
                     <li class="relative">
@@ -60,14 +72,20 @@
                             aria-expanded="false">
                             <i class="fa-solid fa-shield-cat mr-1"></i> STUD CATS
                         </a>
-                        <ul class="dropdown-menu lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
+                        <ul class="dropdown-menu z-50 lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
                             aria-labelledby="navbarDropdownStudCats">
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Stud Cats</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Stud Cats by Breed</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Stud Cats by State</a></li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/stud-cats.aspx">Stud Cats</a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/stud-cats-breed.aspx">Stud Cats by Breed</a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/stud-cats-states.aspx">Stud Cats by State</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="relative">
@@ -76,28 +94,47 @@
                             aria-expanded="false">
                             <i class="fa-solid fa-people-group mr-1"></i> BREEDERS
                         </a>
-                        <ul class="dropdown-menu lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
+                        <ul class="dropdown-menu z-50 lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
                             aria-labelledby="navbarDropdownBreeders">
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Cat Breeders</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Cat Breeders by Breed</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Cat Breeders by State</a>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/breeders.aspx">Cat Breeders</a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/breeders-breed.aspx">Cat Breeders by Breed</a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/breeders-states.aspx">Cat Breeders by State</a>
                             </li>
                         </ul>
                     </li>
-                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
-                            aria-current="page" href="#"><i class="fa-solid fa-calculator"></i> CAT AGE CALCULATOR</a>
+                    <li>
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                            aria-current="page" href="https://www.felines4us.com/cat-age-calculator.aspx"><i
+                                class="fa-solid fa-calculator"></i> CAT AGE CALCULATOR</a>
                     </li>
-                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
-                            aria-current="page" href="#"><i class="fa-solid fa-chart-line"></i> GROWTH CHART</a></li>
-                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
-                            aria-current="page" href="#"><i class="fa-solid fa-cat"></i> CAT NAMES</a></li>
-                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
-                            aria-current="page" href="#"><i class="fa-solid fa-user"></i> JOIN</a></li>
-                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
-                            aria-current="page" href="#"><i class="fa-solid fa-right-to-bracket"></i> LOGIN</a></li>
+                    <li>
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                            aria-current="page" href="https://www.felines4us.com/growth-chart.aspx"><i
+                                class="fa-solid fa-chart-line"></i> GROWTH CHART</a>
+                    </li>
+                    <li>
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                            aria-current="page" href="https://www.felines4us.com/cat-names.aspx"><i
+                                class="fa-solid fa-cat"></i> CAT NAMES</a>
+                    </li>
+                    <li>
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                            aria-current="page" href="https://www.felines4us.com/registration.aspx"><i
+                                class="fa-solid fa-user"></i> JOIN</a>
+                    </li>
+                    <li>
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                            aria-current="page" href="https://www.felines4us.com/login.aspx"><i
+                                class="fa-solid fa-right-to-bracket"></i> LOGIN</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -152,11 +189,13 @@
 
 
 
-        <div class="">
+        <div>
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'A' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'A' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -166,29 +205,34 @@
                             <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">15</span>
                         </td>
                         <td class="align-baseline border p-2 border-x-0 border-[#dee2e6]">
-                            <a href="breeders/american-bobtail.aspx" class="text-light-blue-100 underline">American Bobtail</a>
+                            <a href="breeders/american-bobtail.aspx" class="text-light-blue-100 underline">American
+                                Bobtail</a>
                             <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">2</span>
                         </td>
                         <td class="align-baseline border p-2 border-x-0 border-[#dee2e6]">
-                            <a href="breeders/american-curl.aspx" class="text-light-blue-100 underline">American Curl</a>
+                            <a href="breeders/american-curl.aspx" class="text-light-blue-100 underline">American
+                                Curl</a>
                             <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">1</span>
                         </td>
                     </tr>
                     <tr>
                         <td class="align-baseline border p-2 border-x-0 border-[#dee2e6]">
-                            <a href="breeders/american-shorthair.aspx" class="text-light-blue-100 underline">American Shorthair</a>
+                            <a href="breeders/american-shorthair.aspx" class="text-light-blue-100 underline">American
+                                Shorthair</a>
                             <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">2</span>
                         </td>
                     </tr>
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'B' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'B' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -212,7 +256,8 @@
                             <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">1</span>
                         </td>
                         <td class="align-baseline border p-2 border-x-0 border-[#dee2e6]">
-                            <a href="breeders/british-shorthair.aspx" class="text-light-blue-100 underline">British Shorthair</a>
+                            <a href="breeders/british-shorthair.aspx" class="text-light-blue-100 underline">British
+                                Shorthair</a>
                             <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">25</span>
                         </td>
                         <td class="align-baseline border p-2 border-x-0 border-[#dee2e6]">
@@ -229,12 +274,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'C' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'C' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -247,12 +294,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'D' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'D' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -269,12 +318,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'E' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'E' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -288,19 +339,22 @@
                             <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">1</span>
                         </td>
                         <td class="align-baseline border p-2 border-x-0 border-[#dee2e6]">
-                            <a href="breeders/exotic-shorthair.aspx" class="text-light-blue-100 underline">Exotic Shorthair</a>
+                            <a href="breeders/exotic-shorthair.aspx" class="text-light-blue-100 underline">Exotic
+                                Shorthair</a>
                             <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">30</span>
                         </td>
                     </tr>
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'F' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'F' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -308,12 +362,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'G' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'G' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -321,18 +377,21 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'H' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'H' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
                     <tr>
                         <td class="align-baseline border p-2 border-x-0 border-[#dee2e6]">
-                            <a href="breeders/highland-lynx.aspx" class="text-light-blue-100 underline">Highland Lynx</a>
+                            <a href="breeders/highland-lynx.aspx" class="text-light-blue-100 underline">Highland
+                                Lynx</a>
                             <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">2</span>
                         </td>
                         <td class="align-baseline border p-2 border-x-0 border-[#dee2e6]">
@@ -343,12 +402,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'I' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'I' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -356,12 +417,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'J' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'J' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -369,12 +432,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'K' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'K' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -387,12 +452,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'L' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'L' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -405,12 +472,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'M' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'M' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -431,12 +500,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'N' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'N' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -446,19 +517,22 @@
                             <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">2</span>
                         </td>
                         <td class="align-baseline border p-2 border-x-0 border-[#dee2e6]">
-                            <a href="breeders/norwegian-forest-cat.aspx" class="text-light-blue-100 underline">Norwegian Forest Cat</a>
+                            <a href="breeders/norwegian-forest-cat.aspx" class="text-light-blue-100 underline">Norwegian
+                                Forest Cat</a>
                             <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">11</span>
                         </td>
                     </tr>
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'O' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'O' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -475,15 +549,17 @@
                 </tbody>
             </table>
         </div>
-        
 
-       
-     
+
+
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'P' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'P' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -500,12 +576,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'Q' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'Q' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -513,12 +591,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'R' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'R' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -535,12 +615,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'S' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'S' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -550,7 +632,8 @@
                             <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">26</span>
                         </td>
                         <td class="align-baseline border p-2 border-x-0 border-[#dee2e6]">
-                            <a href="breeders/scottish-fold.aspx" class="text-light-blue-100 underline">Scottish Fold</a>
+                            <a href="breeders/scottish-fold.aspx" class="text-light-blue-100 underline">Scottish
+                                Fold</a>
                             <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">6</span>
                         </td>
                         <td class="align-baseline border p-2 border-x-0 border-[#dee2e6]">
@@ -589,12 +672,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'T' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'T' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -604,7 +689,8 @@
                             <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">5</span>
                         </td>
                         <td class="align-baseline border p-2 border-x-0 border-[#dee2e6]">
-                            <a href="breeders/turkish-angora.aspx" class="text-light-blue-100 underline">Turkish Angora</a>
+                            <a href="breeders/turkish-angora.aspx" class="text-light-blue-100 underline">Turkish
+                                Angora</a>
                             <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">1</span>
                         </td>
                         <td class="align-baseline border p-2 border-x-0 border-[#dee2e6]">
@@ -615,12 +701,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'U' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'U' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -628,12 +716,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'V' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'V' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -641,12 +731,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'W' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'W' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -654,12 +746,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'X' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'X' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -667,12 +761,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'Y' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'Y' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -680,12 +776,14 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class=" mt-4">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray"> 'Z' Breeds </th>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-light-gray">
+                            'Z' Breeds
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -693,7 +791,7 @@
                 </tbody>
             </table>
         </div>
-        
+
 
     </div>
 
@@ -732,24 +830,36 @@
                     <div class="lg:w-1/6 md:w-1/2 w-full mb-6 md:mb-0 px-3">
                         <h3 class="uppercase text-responsive xl:text-[28px] mb-2">Privacy</h3>
                         <ul class="list-none mb-0">
-                            <li class="mb-2 leading-4"><a href="https://www.felines4us.com/terms.aspx"
-                                    class="text-white text-base underline">Terms of Service</a></li>
-                            <li class="mb-2 leading-4"><a href="https://www.felines4us.com/privacy.aspx"
-                                    class="text-white text-base underline">Privacy</a></li>
-                            <li class="mb-2 leading-4"><a href="https://www.felines4us.com/safety-tips.aspx"
-                                    class="text-white text-base underline">Safety Tips</a></li>
+                            <li class="mb-2 leading-4">
+                                <a href="https://www.felines4us.com/terms.aspx"
+                                    class="text-white text-base underline">Terms of Service</a>
+                            </li>
+                            <li class="mb-2 leading-4">
+                                <a href="https://www.felines4us.com/privacy.aspx"
+                                    class="text-white text-base underline">Privacy</a>
+                            </li>
+                            <li class="mb-2 leading-4">
+                                <a href="https://www.felines4us.com/safety-tips.aspx"
+                                    class="text-white text-base underline">Safety Tips</a>
+                            </li>
                         </ul>
                     </div>
                     <!-- Grid column -->
                     <div class="lg:w-1/6 md:w-1/2 w-full mb-6 md:mb-0 px-3">
                         <h3 class="uppercase text-responsive xl:text-[28px] mb-2">Company</h3>
                         <ul class="list-none mb-0">
-                            <li class="mb-2 leading-4"><a href="https://www.felines4us.com/about.aspx"
-                                    class="text-white text-base underline">About</a></li>
-                            <li class="mb-2 leading-4"><a href="https://www.felines4us.com/contactus.aspx"
-                                    class="text-white text-base underline">Contact Us</a></li>
-                            <li class="mb-2 leading-4"><a href="https://www.felines4us.com/faq.aspx"
-                                    class="text-white text-base underline">F.A.Q's</a></li>
+                            <li class="mb-2 leading-4">
+                                <a href="https://www.felines4us.com/about.aspx"
+                                    class="text-white text-base underline">About</a>
+                            </li>
+                            <li class="mb-2 leading-4">
+                                <a href="https://www.felines4us.com/contactus.aspx"
+                                    class="text-white text-base underline">Contact Us</a>
+                            </li>
+                            <li class="mb-2 leading-4">
+                                <a href="https://www.felines4us.com/faq.aspx"
+                                    class="text-white text-base underline">F.A.Q's</a>
+                            </li>
                         </ul>
                     </div>
                     <!-- Grid column -->

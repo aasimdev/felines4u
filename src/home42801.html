@@ -17,8 +17,9 @@
 <body>
     <nav class="bg-black py-2">
         <div class="wrapper flex justify-between lg:justify-normal items-center flex-wrap lg:flex-nowrap">
-            <a class="flex-shrink-0 mr-4 h-10" href="/"><img alt="felines4us Logo" src="./assets/images/logo.webp"
-                    height="45" width="141" class="-mt-1"></a>
+            <a class="flex-shrink-0 mr-4 h-10" href="/">
+                <img alt="felines4us Logo" src="./assets/images/logo.webp" height="45" width="141" class="-mt-1">
+            </a>
             <button
                 class="lg:hidden text-gray-500 hover:text-gray-700 focus:outline-none btn btn-outline-light rounded-md transition btn-rounded px-3 py-1 border border-gray-300"
                 type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -39,19 +40,30 @@
                             aria-expanded="false">
                             <i class="fa-solid fa-paw"></i> KITTENS
                         </a>
-                        <ul class="dropdown-menu lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
+                        <ul class="dropdown-menu z-50 lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
                             aria-labelledby="navbarDropdownKittens">
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Kittens for Sale</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Kittens for Sale by
-                                    Breed</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Kittens for Sale by
-                                    State</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Hypoallergenic
-                                    Kittens for Sale</a></li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/kittens.aspx">Kittens for Sale</a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/kittens-breed.aspx">
+                                    Kittens for Sale by Breed
+                                </a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/kittens-states.aspx">
+                                    Kittens for Sale by State
+                                </a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/hypoallergenic-cats.aspx">
+                                    Hypoallergenic Kittens for Sale
+                                </a>
+                            </li>
                         </ul>
                     </li>
                     <li class="relative">
@@ -60,14 +72,20 @@
                             aria-expanded="false">
                             <i class="fa-solid fa-shield-cat mr-1"></i> STUD CATS
                         </a>
-                        <ul class="dropdown-menu lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
+                        <ul class="dropdown-menu z-50 lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
                             aria-labelledby="navbarDropdownStudCats">
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Stud Cats</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Stud Cats by Breed</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Stud Cats by State</a></li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/stud-cats.aspx">Stud Cats</a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/stud-cats-breed.aspx">Stud Cats by Breed</a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/stud-cats-states.aspx">Stud Cats by State</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="relative">
@@ -76,28 +94,47 @@
                             aria-expanded="false">
                             <i class="fa-solid fa-people-group mr-1"></i> BREEDERS
                         </a>
-                        <ul class="dropdown-menu lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
+                        <ul class="dropdown-menu z-50 lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
                             aria-labelledby="navbarDropdownBreeders">
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Cat Breeders</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Cat Breeders by Breed</a></li>
-                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
-                                    href="#">Cat Breeders by State</a>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/breeders.aspx">Cat Breeders</a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/breeders-breed.aspx">Cat Breeders by Breed</a>
+                            </li>
+                            <li>
+                                <a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="https://www.felines4us.com/breeders-states.aspx">Cat Breeders by State</a>
                             </li>
                         </ul>
                     </li>
-                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
-                            aria-current="page" href="#"><i class="fa-solid fa-calculator"></i> CAT AGE CALCULATOR</a>
+                    <li>
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                            aria-current="page" href="https://www.felines4us.com/cat-age-calculator.aspx"><i
+                                class="fa-solid fa-calculator"></i> CAT AGE CALCULATOR</a>
                     </li>
-                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
-                            aria-current="page" href="#"><i class="fa-solid fa-chart-line"></i> GROWTH CHART</a></li>
-                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
-                            aria-current="page" href="#"><i class="fa-solid fa-cat"></i> CAT NAMES</a></li>
-                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
-                            aria-current="page" href="#"><i class="fa-solid fa-user"></i> JOIN</a></li>
-                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
-                            aria-current="page" href="#"><i class="fa-solid fa-right-to-bracket"></i> LOGIN</a></li>
+                    <li>
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                            aria-current="page" href="https://www.felines4us.com/growth-chart.aspx"><i
+                                class="fa-solid fa-chart-line"></i> GROWTH CHART</a>
+                    </li>
+                    <li>
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                            aria-current="page" href="https://www.felines4us.com/cat-names.aspx"><i
+                                class="fa-solid fa-cat"></i> CAT NAMES</a>
+                    </li>
+                    <li>
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                            aria-current="page" href="https://www.felines4us.com/registration.aspx"><i
+                                class="fa-solid fa-user"></i> JOIN</a>
+                    </li>
+                    <li>
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                            aria-current="page" href="https://www.felines4us.com/login.aspx"><i
+                                class="fa-solid fa-right-to-bracket"></i> LOGIN</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -108,19 +145,18 @@
         <div class=" mt-2 text-center">
             <small class="text-gray-600">Member Since: 6/10/2018 <span class="glyphicon glyphicon-star"></span>
                 <br>
-                Argyle, TX 76226</small>
+                Argyle, TX 76226
+            </small>
         </div>
         <div class="flex justify-center mt-4 space-x-4">
-            <a href="sms:+19404640405"
-                class="inline-flex items-center justify-center ">
+            <a href="sms:+19404640405" class="inline-flex items-center justify-center ">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 512 512">
                     <path
                         d="M256 448c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9c-5.5 9.2-11.1 16.6-15.2 21.6c-2.1 2.5-3.7 4.4-4.9 5.7c-.6 .6-1 1.1-1.3 1.4l-.3 .3 0 0 0 0 0 0 0 0c-4.6 4.6-5.9 11.4-3.4 17.4c2.5 6 8.3 9.9 14.8 9.9c28.7 0 57.6-8.9 81.6-19.3c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9zM96 212.8c0-20.3 16.5-36.8 36.8-36.8H152c8.8 0 16 7.2 16 16s-7.2 16-16 16H132.8c-2.7 0-4.8 2.2-4.8 4.8c0 1.6 .8 3.1 2.2 4l29.4 19.6c10.3 6.8 16.4 18.3 16.4 30.7c0 20.3-16.5 36.8-36.8 36.8H112c-8.8 0-16-7.2-16-16s7.2-16 16-16h27.2c2.7 0 4.8-2.2 4.8-4.8c0-1.6-.8-3.1-2.2-4l-29.4-19.6C102.2 236.7 96 225.2 96 212.8zM372.8 176H392c8.8 0 16 7.2 16 16s-7.2 16-16 16H372.8c-2.7 0-4.8 2.2-4.8 4.8c0 1.6 .8 3.1 2.2 4l29.4 19.6c10.2 6.8 16.4 18.3 16.4 30.7c0 20.3-16.5 36.8-36.8 36.8H352c-8.8 0-16-7.2-16-16s7.2-16 16-16h27.2c2.7 0 4.8-2.2 4.8-4.8c0-1.6-.8-3.1-2.2-4l-29.4-19.6c-10.2-6.8-16.4-18.3-16.4-30.7c0-20.3 16.5-36.8 36.8-36.8zm-152 6.4L256 229.3l35.2-46.9c4.1-5.5 11.3-7.8 17.9-5.6s10.9 8.3 10.9 15.2v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V240l-19.2 25.6c-3 4-7.8 6.4-12.8 6.4s-9.8-2.4-12.8-6.4L224 240v48c0 8.8-7.2 16-16 16s-16-7.2-16-16V192c0-6.9 4.4-13 10.9-15.2s13.7 .1 17.9 5.6z">
                     </path>
                 </svg>
             </a>
-            <a href="tel:+19404640405"
-                class="inline-flex items-center justify-center ">
+            <a href="tel:+19404640405" class="inline-flex items-center justify-center ">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 512 512">
                     <path
                         d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L203.3 152c13.7-11.1 18.4-30 11.6-46.3l-40-96z">
@@ -128,8 +164,8 @@
                 </svg>
             </a>
             <button id="btnShare" aria-label="btnShare" title="Share" type="button"
-                class="inline-flex items-center justify-center py-1.5 px-3"
-                data-bs-toggle="modal" data-bs-target="#shareModal">
+                class="inline-flex items-center justify-center py-1.5 px-3" data-bs-toggle="modal"
+                data-bs-target="#shareModal">
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-share"
                     viewBox="0 0 16 16">
                     <path
@@ -139,79 +175,78 @@
             </button>
         </div>
         <div class="flex flex-wrap justify-center  space-x-2">
-            <a href="https://www.felines4us.com/breeders/persian.aspx"
-                class="border border-light-blue-200 text-light-blue-200 m-2 text-sm rounded py-1 px-2">Persian Breeders</a>
-            <a href="https://www.felines4us.com/kittens/persian.aspx" class="border border-light-blue-200 text-light-blue-200 m-2 text-sm rounded py-1 px-2">Persian
-                Kittens</a>
+            <a href="https://www.felines4us.com/breeders/persian.aspx" class="border border-light-blue-200 text-light-blue-200 m-2 text-sm rounded py-1 px-2">Persian Breeders</a>
+            <a href="https://www.felines4us.com/kittens/persian.aspx" class="border border-light-blue-200 text-light-blue-200 m-2 text-sm rounded py-1 px-2">Persian Kittens</a>
         </div>
 
-    <div class=" p-4">
-        <p class="text-gray-700">
-            Please visit my website to explore our exquisite, purebred Persian kittens and cats. Our CFA registered
-            cattery has been maintaining exceptional standards since 1982. Located in Argyle, TX, we are offering
-            reduced prices on these majestic felines. The owner, also running Animal Attraction Pet Grooming in the same
-            area, ensures top-notch care for our beloved Persians. Pick-ups are available exclusively, with an
-            application process under the Procedures section for potential adopters. Applicants are required to possess
-            experience with long-haired breeds and be at least 25 years old. Don't miss this opportunity to bring home a
-            furry companion that will surely steal your heart. Apply now for the chance to welcome a purebred Persian
-            into your home.
-        </p>
-        <h2 class="text-center text-2xl font-semibold my-6">Laurie's Listings</h2>
-        <div class="flex flex-wrap justify-center">
-            <div class="w-full sm:w-1/2 lg:w-1/3 py-2">
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                    <a href="/kittens/persian-59923.aspx">
-                        <img alt="Persian" class="w-full h-[300px] object-cover"
-                            src="./assets/images/persian-1.jpg" />
-                    </a>
-                    <div class="p-4 text-center">
-                        <span class="bg-sky-300 text-white text-sm px-2 py-1 rounded font-bold">Kittens for Sale
-                            Ad</span>
-                        <p class="mt-2">CFA Vaniers Available for Adoption</p>
-                        <p class="mt-1 font-semibold">Price: $800</p>
+        <div class=" py-4">
+            <p>
+                Please visit my website to explore our exquisite, purebred Persian kittens and cats. Our CFA registered
+                cattery has been maintaining exceptional standards since 1982. Located in Argyle, TX, we are offering
+                reduced prices on these majestic felines. The owner, also running Animal Attraction Pet Grooming in the
+                same
+                area, ensures top-notch care for our beloved Persians. Pick-ups are available exclusively, with an
+                application process under the Procedures section for potential adopters. Applicants are required to
+                possess
+                experience with long-haired breeds and be at least 25 years old. Don't miss this opportunity to bring
+                home a
+                furry companion that will surely steal your heart. Apply now for the chance to welcome a purebred
+                Persian
+                into your home.
+            </p>
+            <h2 class="text-center text-xl font-semibold my-2">Vanierpersians's Listings </h2>
+            <div class="flex flex-wrap justify-center">
+                <div class="w-full sm:w-1/2 lg:w-1/3">
+                    <div class="bg-white rounded-lg overflow-hidden border border-gray-300">
+                        <a href="/kittens/persian-59923.aspx">
+                            <img alt="Persian" class="w-full h-[300px] object-cover" src="./assets/images/persian-1.jpg" />
+                        </a>
+                        <div class="p-4 text-center">
+                            <span class="bg-sky-300 text-white text-sm px-2 py-1 rounded font-bold">Kittens for Sale
+                                Ad
+                            </span>
+                            <p class="mt-2">CFA Vaniers Available for Adoption</p>
+                            <p class="mt-1 font-semibold">Price: $800</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="w-full sm:w-1/2 lg:w-1/3 py-2">
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                    <a href="/breeders/persian-1318.aspx">
-                        <img alt="no image" class="w-full h-[300px] object-cover"
-                            src="./assets/images/default1.webp" />
-                    </a>
-                    <div class="p-4 text-center">
-                        <span class="bg-sky-300 text-white text-sm px-2 py-1 rounded font-bold">Breeder Ad</span>
-                        <p class="mt-2">Kittens for Adoption</p>
+                <div class="w-full sm:w-1/2 lg:w-1/3">
+                    <div class="bg-white rounded-lg overflow-hidden border border-gray-300">
+                        <a href="/breeders/persian-1318.aspx">
+                            <img alt="no image" class="w-full h-[300px] object-cover" src="./assets/images/default1.webp" />
+                        </a>
+                        <div class="p-4 text-center">
+                            <span class="bg-sky-300 text-white text-sm px-2 py-1 rounded font-bold">Breeder Ad</span>
+                            <p class="mt-2">Kittens for Adoption</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="w-full sm:w-1/2 lg:w-1/3 py-2">
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                    <a href="/breeders/persian-1316.aspx">
-                        <img alt="no image" class="w-full h-[300px] object-cover"
-                            src="./assets/images/default1.webp" />
-                    </a>
-                    <div class="p-4 text-center">
-                        <span class="bg-sky-300 text-white text-sm px-2 py-1 rounded font-bold">Breeder Ad</span>
-                        <p class="mt-2">Persian Kittens for Sale in Texas</p>
+                <div class="w-full sm:w-1/2 lg:w-1/3">
+                    <div class="bg-white rounded-lg overflow-hidden border border-gray-300">
+                        <a href="/breeders/persian-1316.aspx">
+                            <img alt="no image" class="w-full h-[300px] object-cover" src="./assets/images/default1.webp" />
+                        </a>
+                        <div class="p-4 text-center">
+                            <span class="bg-sky-300 text-white text-sm px-2 py-1 rounded font-bold">Breeder Ad</span>
+                            <p class="mt-2">Persian Kittens for Sale in Texas</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="w-full sm:w-1/2 lg:w-1/3 py-2">
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                    <a href="/kittens/persian-60259.aspx">
-                        <img alt="Persian" class="w-full h-[300px] object-cover"
-                            src="./assets/images/persian-3.jpg" />
-                    </a>
-                    <div class="p-4 text-center">
-                        <span class="bg-sky-300 text-white text-sm px-2 py-1 rounded font-bold">Kittens for Sale
-                            Ad</span>
-                        <p class="mt-2">CFA Vaniers Lauren</p>
-                        <p class="mt-1 font-semibold">Price: $1,500</p>
+                <div class="w-full sm:w-1/2 lg:w-1/3">
+                    <div class="bg-white rounded-lg overflow-hidden border border-gray-300">
+                        <a href="/kittens/persian-60259.aspx">
+                            <img alt="Persian" class="w-full h-[300px] object-cover" src="./assets/images/persian-3.jpg" />
+                        </a>
+                        <div class="p-4 text-center">
+                            <span class="bg-sky-300 text-white text-sm px-2 py-1 rounded font-bold">Kittens for Sale
+                                Ad</span>
+                            <p class="mt-2">CFA Vaniers Lauren</p>
+                            <p class="mt-1 font-semibold">Price: $1,500</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
 
@@ -316,7 +351,6 @@
         </div>
         <!-- Copyright -->
     </footer>
-
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
