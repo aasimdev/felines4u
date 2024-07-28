@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="XXX">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <title>Find Local Cat Breeders by State at Felines4Us - Connect Nearby</title>
+
+
+</head>
+
+<body>
+    <nav class="bg-black py-2">
+        <div class="wrapper flex justify-between lg:justify-normal items-center flex-wrap lg:flex-nowrap">
+            <a class="flex-shrink-0 mr-4 h-10" href="/"><img alt="felines4us Logo" src="./assets/images/logo.webp"
+                    height="45" width="141" class="-mt-1"></a>
+            <button
+                class="lg:hidden text-gray-500 hover:text-gray-700 focus:outline-none btn btn-outline-light rounded-md transition btn-rounded px-3 py-1 border border-gray-300"
+                type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="sr-only">Open main menu</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#d1d5db" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
+            </button>
+            <div class="h-0 overflow-hidden lg:overflow-visible lg:h-auto  lg:flex lg:items-center lg:space-x-4 basis-full lg:basis-[auto] transition-all"
+                id="navbarSupportedContent">
+                <ul class="flex -mb-[3.5px] flex-col lg:flex-row">
+                    <li class="relative">
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5 after:display-inline after:ml-1 after:align-middle after:border-t-[5px] after:border-t-solid after:border-r-[5px] after:border-r-transparent after:border-b-0 after:border-l-[5px] after:border-l-transparent"
+                            href="#" id="navbarDropdownKittens" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-paw"></i> KITTENS
+                        </a>
+                        <ul class="dropdown-menu lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
+                            aria-labelledby="navbarDropdownKittens">
+                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="#">Kittens for Sale</a></li>
+                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="#">Kittens for Sale by
+                                    Breed</a></li>
+                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="#">Kittens for Sale by
+                                    State</a></li>
+                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="#">Hypoallergenic
+                                    Kittens for Sale</a></li>
+                        </ul>
+                    </li>
+                    <li class="relative">
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-0 lg:px-2 pb-2 pt-2.5 after:display-inline after:ml-1 after:align-middle after:border-t-[5px] after:border-t-solid after:border-r-[5px] after:border-r-transparent after:border-b-0 after:border-l-[5px] after:border-l-transparent"
+                            href="#" id="navbarDropdownStudCats" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-shield-cat mr-1"></i> STUD CATS
+                        </a>
+                        <ul class="dropdown-menu lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
+                            aria-labelledby="navbarDropdownStudCats">
+                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="#">Stud Cats</a></li>
+                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="#">Stud Cats by Breed</a></li>
+                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="#">Stud Cats by State</a></li>
+                        </ul>
+                    </li>
+                    <li class="relative">
+                        <a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-0 lg:px-2 pb-2 pt-2.5 after:display-inline after:ml-1 after:align-middle after:border-t-[5px] after:border-t-solid after:border-r-[5px] after:border-r-transparent after:border-b-0 after:border-l-[5px] after:border-l-transparent"
+                            href="#" id="navbarDropdownBreeders" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-people-group mr-1"></i> BREEDERS
+                        </a>
+                        <ul class="dropdown-menu lg:absolute left-0 mt-0.5 py-2 bg-black rounded-md w-max hidden"
+                            aria-labelledby="navbarDropdownBreeders">
+                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="#">Cat Breeders</a></li>
+                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="#">Cat Breeders by Breed</a></li>
+                            <li><a class="block text-white h-10 pt-2.5 w-full px-4 pb-1 hover:text-white hover:bg-[#ded85b]"
+                                    href="#">Cat Breeders by State</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                            aria-current="page" href="#"><i class="fa-solid fa-calculator"></i> CAT AGE CALCULATOR</a>
+                    </li>
+                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                            aria-current="page" href="#"><i class="fa-solid fa-chart-line"></i> GROWTH CHART</a></li>
+                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                            aria-current="page" href="#"><i class="fa-solid fa-cat"></i> CAT NAMES</a></li>
+                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                            aria-current="page" href="#"><i class="fa-solid fa-user"></i> JOIN</a></li>
+                    <li><a class="text-white hover:text-black hover:bg-[#ded85b] h-10 flex items-center gap-1 lg:px-2 pb-2 pt-2.5"
+                            aria-current="page" href="#"><i class="fa-solid fa-right-to-bracket"></i> LOGIN</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <nav class="my-4" aria-label="breadcrumb">
+            <ol class="flex flex-wrap space-x-2 p-4 bg-gray-50 rounded-lg mb-4">
+                <li class="flex items-end">
+                    <a class="text-black flex items-end h-full pb-[2px]" href="https://www.felines4us.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5" />
+                        </svg>
+                        <span class="sr-only">Home</span>
+                    </a>
+                </li>
+                <li class="flex items-end">
+                    <span class="text-gray-500">/</span>
+
+                    <a class="text-black flex items-end h-full pb-[2px] ml-2" href="https://www.felines4us.com/">
+                        <i class="fa-solid fa-people-group mr-1"></i>
+                        <span class="sr-only">Cat Breeders</span>
+                    </a>
+                </li>
+                <li class="flex items-center">
+                    <span class="text-gray-500">/</span>
+                    <span class="ml-2 text-gray-500">Cat Breeders by State
+                    </span>
+                </li>
+            </ol>
+        </nav>
+        <h1 class="text-2xl mb-2">Cat Breeders by State</h1>
+        <p class="mb-4">
+            Looking for cat breeders close to you? Felines4Us offers a comprehensive directory of cat breeders by state. 
+            <button id="toggleContent" class="text-light-blue-100 underline focus:outline-none">Read More</button>
+            <div id="breedersByStateContent" class="hidden mt-4">
+                <p class="text-gray-700">
+                    Our user-friendly platform enables you to find trusted and reputable breeders within your vicinity, making your search for the perfect cat as convenient as possible. Whether you are searching for a specific breed or just beginning your journey to cat ownership, our listings include breeders of various breeds, providing detailed profiles that help you make an informed decision. Start your journey with us and find a breeder who meets your needs and expectations.
+                </p>
+            </div>
+        </p>
+
+        <div>
+            <table class="min-w-full divide-y divide-gray-200 bg-white mb-4">
+                <thead>
+                    <tr>
+                        <th colspan="3" class="border p-2 border-x-0 border-t-0 text-left  border-[#dee2e6] ">Available Stud Cats by State</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border border-x-0 border-t-0  border-light-gray">
+                        <td class="p-2"><a href="breeders/alabama.aspx" class="text-light-blue-100 underline">Alabama</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">2</span></td>
+                        <td class="p-2"><a href="breeders/alberta.aspx" class="text-light-blue-100 underline">Alberta</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">36</span></td>
+                        <td class="p-2"><a href="breeders/arizona.aspx" class="text-light-blue-100 underline">Arizona</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">12</span></td>
+                    </tr>
+                    <tr class="border border-x-0 border-t-0  border-light-gray">
+                        <td class="p-2"><a href="breeders/arkansas.aspx" class="text-light-blue-100 underline">Arkansas</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">13</span></td>
+                        <td class="p-2"><a href="breeders/british-columbia.aspx" class="text-light-blue-100 underline">British Columbia</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">8</span></td>
+                        <td class="p-2"><a href="breeders/california.aspx" class="text-light-blue-100 underline">California</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">34</span></td>
+                    </tr>
+                    <tr class="border border-x-0 border-t-0  border-light-gray">
+                        <td class="p-2"><a href="breeders/colorado.aspx" class="text-light-blue-100 underline">Colorado</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">3</span></td>
+                        <td class="p-2"><a href="breeders/connecticut.aspx" class="text-light-blue-100 underline">Connecticut</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">4</span></td>
+                        <td class="p-2"><a href="breeders/delaware.aspx" class="text-light-blue-100 underline">Delaware</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">3</span></td>
+                    </tr>
+                    <tr class="border border-x-0 border-t-0  border-light-gray">
+                        <td class="p-2"><a href="breeders/florida.aspx" class="text-light-blue-100 underline">Florida</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">92</span></td>
+                        <td class="p-2"><a href="breeders/georgia.aspx" class="text-light-blue-100 underline">Georgia</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">15</span></td>
+                        <td class="p-2"><a href="breeders/idaho.aspx" class="text-light-blue-100 underline">Idaho</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">4</span></td>
+                    </tr>
+                    <tr class="border border-x-0 border-t-0  border-light-gray">
+                        <td class="p-2"><a href="breeders/illinois.aspx" class="text-light-blue-100 underline">Illinois</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">17</span></td>
+                        <td class="p-2"><a href="breeders/indiana.aspx" class="text-light-blue-100 underline">Indiana</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">11</span></td>
+                        <td class="p-2"><a href="breeders/iowa.aspx" class="text-light-blue-100 underline">Iowa</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">2</span></td>
+                    </tr>
+                    <tr class="border border-x-0 border-t-0  border-light-gray">
+                        <td class="p-2"><a href="breeders/kansas.aspx" class="text-light-blue-100 underline">Kansas</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">6</span></td>
+                        <td class="p-2"><a href="breeders/kentucky.aspx" class="text-light-blue-100 underline">Kentucky</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">12</span></td>
+                        <td class="p-2"><a href="breeders/louisiana.aspx" class="text-light-blue-100 underline">Louisiana</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">5</span></td>
+                    </tr>
+                    <tr class="border border-x-0 border-t-0  border-light-gray">
+                        <td class="p-2"><a href="breeders/manitoba.aspx" class="text-light-blue-100 underline">Manitoba</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">5</span></td>
+                        <td class="p-2"><a href="breeders/maryland.aspx" class="text-light-blue-100 underline">Maryland</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">12</span></td>
+                        <td class="p-2"><a href="breeders/massachusetts.aspx" class="text-light-blue-100 underline">Massachusetts</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">12</span></td>
+                    </tr>
+                    <tr class="border border-x-0 border-t-0  border-light-gray">
+                        <td class="p-2"><a href="breeders/michigan.aspx" class="text-light-blue-100 underline">Michigan</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">10</span></td>
+                        <td class="p-2"><a href="breeders/minnesota.aspx" class="text-light-blue-100 underline">Minnesota</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">2</span></td>
+                        <td class="p-2"><a href="breeders/mississippi.aspx" class="text-light-blue-100 underline">Mississippi</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">2</span></td>
+                    </tr>
+                    <tr class="border border-x-0 border-t-0  border-light-gray">
+                        <td class="p-2"><a href="breeders/missouri.aspx" class="text-light-blue-100 underline">Missouri</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">15</span></td>
+                        <td class="p-2"><a href="breeders/nebraska.aspx" class="text-light-blue-100 underline">Nebraska</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">3</span></td>
+                        <td class="p-2"><a href="breeders/nevada.aspx" class="text-light-blue-100 underline">Nevada</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">3</span></td>
+                    </tr>
+                    <tr class="border border-x-0 border-t-0  border-light-gray">
+                        <td class="p-2"><a href="breeders/new-hampshire.aspx" class="text-light-blue-100 underline">New Hampshire</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">5</span></td>
+                        <td class="p-2"><a href="breeders/new-jersey.aspx" class="text-light-blue-100 underline">New Jersey</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">6</span></td>
+                        <td class="p-2"><a href="breeders/new-mexico.aspx" class="text-light-blue-100 underline">New Mexico</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">8</span></td>
+                    </tr>
+                    <tr class="border border-x-0 border-t-0  border-light-gray">
+                        <td class="p-2"><a href="breeders/new-york.aspx" class="text-light-blue-100 underline">New York</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">18</span></td>
+                        <td class="p-2"><a href="breeders/north-carolina.aspx" class="text-light-blue-100 underline">North Carolina</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">22</span></td>
+                        <td class="p-2"><a href="breeders/north-dakota.aspx" class="text-light-blue-100 underline">North Dakota</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">4</span></td>
+                    </tr>
+                    <tr class="border border-x-0 border-t-0  border-light-gray">
+                        <td class="p-2"><a href="breeders/ohio.aspx" class="text-light-blue-100 underline">Ohio</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">19</span></td>
+                        <td class="p-2"><a href="breeders/oklahoma.aspx" class="text-light-blue-100 underline">Oklahoma</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">4</span></td>
+                        <td class="p-2"><a href="breeders/ontario.aspx" class="text-light-blue-100 underline">Ontario</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">8</span></td>
+                    </tr>
+                    <tr class="border border-x-0 border-t-0  border-light-gray">
+                        <td class="p-2"><a href="breeders/oregon.aspx" class="text-light-blue-100 underline">Oregon</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">4</span></td>
+                        <td class="p-2"><a href="breeders/pennsylvania.aspx" class="text-light-blue-100 underline">Pennsylvania</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">19</span></td>
+                        <td class="p-2"><a href="breeders/prince-edward-island.aspx" class="text-light-blue-100 underline">Prince Edward Island</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">2</span></td>
+                    </tr>
+                    <tr class="border border-x-0 border-t-0  border-light-gray">
+                        <td class="p-2"><a href="breeders/quebec.aspx" class="text-light-blue-100 underline">Quebec</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">1</span></td>
+                        <td class="p-2"><a href="breeders/rhode-island.aspx" class="text-light-blue-100 underline">Rhode Island</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">6</span></td>
+                        <td class="p-2"><a href="breeders/saskatchewan.aspx" class="text-light-blue-100 underline">Saskatchewan</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">1</span></td>
+                    </tr>
+                    <tr class="border border-x-0 border-t-0  border-light-gray">
+                        <td class="p-2"><a href="breeders/south-carolina.aspx" class="text-light-blue-100 underline">South Carolina</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">6</span></td>
+                        <td class="p-2"><a href="breeders/tennessee.aspx" class="text-light-blue-100 underline">Tennessee</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">5</span></td>
+                        <td class="p-2"><a href="breeders/texas.aspx" class="text-light-blue-100 underline">Texas</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">23</span></td>
+                    </tr>
+                    <tr class="border border-x-0 border-t-0  border-light-gray">
+                        <td class="p-2"><a href="breeders/utah.aspx" class="text-light-blue-100 underline">Utah</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">6</span></td>
+                        <td class="p-2"><a href="breeders/vermont.aspx" class="text-light-blue-100 underline">Vermont</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">7</span></td>
+                        <td class="p-2"><a href="breeders/virginia.aspx" class="text-light-blue-100 underline">Virginia</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">9</span></td>
+                    </tr>
+                    <tr class="border border-x-0 border-t-0  border-light-gray">
+                        <td class="p-2"><a href="breeders/washington.aspx" class="text-light-blue-100 underline">Washington</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">22</span></td>
+                        <td class="p-2"><a href="breeders/west-virginia.aspx" class="text-light-blue-100 underline">West Virginia</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">7</span></td>
+                        <td class="p-2"><a href="breeders/wisconsin.aspx" class="text-light-blue-100 underline">Wisconsin</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">6</span></td>
+                    </tr>
+                    <tr class="border border-x-0 border-t-0  border-light-gray">
+                        <td class="p-2"><a href="breeders/wyoming.aspx" class="text-light-blue-100 underline">Wyoming</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">1</span></td>
+                        <td class="p-2"><a href="breeders/yukon.aspx" class="text-light-blue-100 underline">Yukon</a> <span class="bg-light-blue-200 text-white text-xs rounded-full px-2 py-[2px] font-bold">4</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer class="text-lg text-white bg-black">
+        <!-- Grid container -->
+        <div class="wrapper py-6 px-3 pb-0">
+            <!-- Section: Links -->
+            <section>
+                <!-- Grid row -->
+                <div class="flex flex-wrap text-center lg:text-start">
+                    <!-- Grid column -->
+                    <div class="lg:w-1/3 md:w-1/2 w-full mb-6 md:mb-0 px-3">
+                        <h3 class="uppercase text-responsive xl:text-[28px] mb-2">Felines4Us.com</h3>
+                        <p class="text-base mb-4">
+                            Your go-to destination for finding and connecting with trustworthy breeders offering
+                            pedigreed cats and kittens for sale. Explore our extensive listings to discover the ideal
+                            feline companion for your home.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    <div class="lg:w-1/4 md:w-1/2 w-full mb-6 md:mb-0 px-3">
+                        <h3 class="uppercase text-responsive xl:text-[28px] mb-2">Newsletter</h3>
+                        <p class="text-base mb-4">Subscribe to our newsletter by entering your email address and receive
+                            great tips about raising cats.</p>
+                        <div class="flex mb-4">
+                            <input type="email" id="sbsemail" placeholder="Enter your email"
+                                class="block w-full px-3 py-[6px] text-base font-normal rounded-tr-none rounded-br-none leading-6 text-[#212529] appearance-none bg-white border border-gray-300 rounded transition duration-150 ease-in-out focus:border-blue-500 focus:outline-none focus:ring">
+                            <input id="subscribeButton" type="button"
+                                class="btn btn-outline-light rounded-md rounded-tl-none rounded-bl-none transition btn-rounded px-3 py-[6px] border border-gray-300 text-base"
+                                value="Submit">
+                        </div>
+                        <div id="subscriptionMessage" class="subscription-message hidden"></div>
+                        <!-- Placeholder for the message -->
+                    </div>
+                    <!-- Grid column -->
+                    <div class="lg:w-1/6 md:w-1/2 w-full mb-6 md:mb-0 px-3">
+                        <h3 class="uppercase text-responsive xl:text-[28px] mb-2">Privacy</h3>
+                        <ul class="list-none mb-0">
+                            <li class="mb-2 leading-4"><a href="https://www.felines4us.com/terms.aspx"
+                                    class="text-white text-base underline">Terms of Service</a></li>
+                            <li class="mb-2 leading-4"><a href="https://www.felines4us.com/privacy.aspx"
+                                    class="text-white text-base underline">Privacy</a></li>
+                            <li class="mb-2 leading-4"><a href="https://www.felines4us.com/safety-tips.aspx"
+                                    class="text-white text-base underline">Safety Tips</a></li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+                    <div class="lg:w-1/6 md:w-1/2 w-full mb-6 md:mb-0 px-3">
+                        <h3 class="uppercase text-responsive xl:text-[28px] mb-2">Company</h3>
+                        <ul class="list-none mb-0">
+                            <li class="mb-2 leading-4"><a href="https://www.felines4us.com/about.aspx"
+                                    class="text-white text-base underline">About</a></li>
+                            <li class="mb-2 leading-4"><a href="https://www.felines4us.com/contactus.aspx"
+                                    class="text-white text-base underline">Contact Us</a></li>
+                            <li class="mb-2 leading-4"><a href="https://www.felines4us.com/faq.aspx"
+                                    class="text-white text-base underline">F.A.Q's</a></li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </section>
+            <!-- Section: Links -->
+
+            <hr class="mb-6 mt-4 border-gray-700">
+
+            <!-- Section: CTA -->
+            <section>
+                <p class="flex justify-center items-center mb-4  text-base">
+                    <span class="mr-4">Register for free!</span>
+                    <a href="https://www.felines4us.com/registration.aspx"
+                        class="btn btn-outline-light rounded-md transition btn-rounded px-3 py-[6px] border border-gray-300 text-base">Sign
+                        up!</a>
+                </p>
+            </section>
+            <!-- Section: CTA -->
+
+            <hr class="mb-6 mt-4 border-gray-700">
+
+            <!-- Section: Social media -->
+            <section class="mb-6 text-center">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light rounded-md transition btn-rounded px-3 py-[6px] border inline-block border-gray-300 text-base m-1"
+                    href="https://www.facebook.com/Felines4Us" role="button" aria-label="Felines4Us Facebook Page"
+                    target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                <!-- Twitter -->
+                <a class="btn btn-outline-light rounded-md transition btn-rounded px-3 py-[6px] border inline-block border-gray-300 text-base m-1"
+                    href="https://twitter.com/felinesforus" role="button" aria-label="Felines4Us X (Twitter) Page"
+                    target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                <!-- Pinterest -->
+                <a class="btn btn-outline-light rounded-md transition btn-rounded px-3 py-[6px] border inline-block border-gray-300 text-base m-1"
+                    href="https://www.pinterest.com/Felines4Us/" role="button" aria-label="Felines4Us Pinterest Page"
+                    target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-pinterest"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div class="text-center p-4 bg-black bg-opacity-20 text-base">
+            &copy;2006 - 2024 <a class="text-white text-base underline"
+                href="https://www.felines4us.com/">Felines4Us.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script type="99330d432d5ffa042df2274c-text/javascript">
+        $(document).ready(function () {
+            $("#subscribeButton").click(function () {
+                var email = $("#sbsemail").val();
+    
+                $.ajax({
+                    type: "POST",
+                    url: "/admin/jsonservices.aspx/SubmitNewsletter",
+                    data: JSON.stringify({ email: email }),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        $(".input-group").hide();
+                        $("#subscriptionMessage").html("<p>Thank you for subscribing!</p>").show();
+                    },
+                    error: function (xhr, status, error) {
+                        $(".input-group").hide();
+                        $("#subscriptionMessage").html("<p>Error subscribing, please check the email provided!</p>").show();
+                    }
+                });
+            });
+        });
+    </script>
+    <script type="99330d432d5ffa042df2274c-text/javascript">
+        document.addEventListener("DOMContentLoaded", function () {
+            if (!getCookie("cookiesAccepted")) {
+                document.getElementById("cookieConsentAlert").style.display = "block";
+            }
+        });
+    
+        function acceptCookies() {
+            setCookie("cookiesAccepted", "true", 365); // Set cookie for 1 year
+            document.getElementById("cookieConsentAlert").style.display = "none";
+        }
+    
+        function setCookie(name, value, days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + (value || "") + expires + "; path=/";
+        }
+    
+        function getCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+    
+    </script>
+</body>
+
+</html>
